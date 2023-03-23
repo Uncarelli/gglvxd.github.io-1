@@ -9,7 +9,7 @@
 
 section {
     position: relative;
-    background: url(background.gif) center center/cover no-repeat;
+    background: url(test.jpg) center center/cover no-repeat;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ section {
     position: relative;
     width: 360px;
     height: 380px;
-    background: url(background.gif);
+    background: url(test.jpg);
     background-size: cover;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.180);
     border: 1px solid #ffffff1a;
