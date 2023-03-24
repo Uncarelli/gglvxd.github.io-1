@@ -9,7 +9,7 @@
 
 section {
     position: relative;
-    background: url(test.jpg) center center/cover no-repeat;
+    background: url(laptop.jpg) center center/cover no-repeat;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ section {
     position: relative;
     width: 360px;
     height: 380px;
-    background: url(test.jpg);
+    background: url(laptop.jpg);
     background-size: cover;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.180);
     border: 1px solid #ffffff1a;
@@ -52,7 +52,7 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(background.gif) center center/cover no-repeat;
+    background: url(laptop.jpg) center center/cover no-repeat;
     filter: blur(10px);
     z-index: -1;
     background-size: 50%;
@@ -103,16 +103,19 @@ section .card .imgText .imgBx img{
 
 section .card .imgText h3{
     font-weight: bolder;
-    font-size: 1.4em;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1em;
     line-height: 1.2em;
     text-align: center;
-    color:#3b4b58;
+    color:#7f7f7f;
 }
 
 section .card .imgText h3 span{
+    border: none;
     font-weight: 400;
     color: #eeeeee;
-    font-size: 0.75em;
+    font-size: 0.80em;
     transition: 0.3s;
 }
 
@@ -136,8 +139,9 @@ section .card .sci li a{
     position: relative;
     width: 50px;
     height: 50px;
-    background: #ffffff00;
-    color: #587084;
+    background: #ffffff;
+    border: none;
+    color: #000000;
     margin: 0 5px;
     display: flex;
     justify-content: center;
@@ -154,8 +158,6 @@ section .card .sci li a{
         position: relative;
         width: 40px;
         height: 40px;
-        background: #ffffff;
-        color: #3b4b58;
     }
 }
 
@@ -169,11 +171,12 @@ section .card .sci li a .fa{
 }
 
 section .card .sci li a:before{
+    border: none;
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #3b4b58;
+    background: #000000;
     border-radius: 50%;
     transform: scale(0);
     transition: 0.2s;
